@@ -7,7 +7,7 @@ This project calculates balanced chemical equations using a server-based approac
 Make sure you have Docker installed on your system for containerizing the server.
 
 ### Step 1: Create Docker Image for the Server
-1. First, you need to create a Docker image for the server. 
+First, you need to create a Docker image for the server. 
 
 Build the Docker image by running the following command:
 ```bash
