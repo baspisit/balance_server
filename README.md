@@ -13,14 +13,14 @@ Build the Docker image by running the following command:
 ```bash
 docker build -t chemical-equation-balancer .
 ```
-Step 2: Run the Server in a Container
+### Step 2: Run the Server in a Container
 Once the image is built, run the Docker container using the command below:
 ```bash
 docker run -d -p 65432:65432 chemical-equation-balancer
 ```
 This will start the server and bind it to port 65432. The server is now running and ready to process requests for balancing chemical equations.
 
-Step 3: Modify Reactants and Products in `client.py`
+### Step 3: Modify Reactants and Products in `client.py`
 Open `client.py` and modify the chemical reactants and products as needed. For example, update the variables representing the chemical equation to be balanced.
 Example of modifying reactants/products:
 ```python
